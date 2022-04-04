@@ -1,0 +1,121 @@
+.geo__header {
+    display: flex;
+    /* backdrop-filter: blur(10px); */
+    /* height: 100hv; */
+}
+
+.geo__header-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin-right: 5rem;
+    
+}
+
+.geo__header-content h1 {
+    font-family: var(--font-familly);
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04rem;
+    color: rgb(255, 255, 255);
+    background-color: rgba(214, 88, 4, 0.3);
+    text-align: center;
+    padding: 1rem 1rem;
+}
+
+.geo__header-content p {
+    font-family: var(--font-familly);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: var(--color-text);
+    text-align: justify;
+    text-justify: inter-word;
+
+    margin-top: 1.5rem;
+
+    background-color: var(--color-footer);
+    border: 2px solid var(--color-footer);
+    outline: none;
+    color: rgb(255, 255, 255);
+    border-radius: 5px 5px 5px 5px;
+    padding: 1rem 1rem;
+    box-shadow: 0px 0px 25px 8px rgba(0,0,0,0.78);
+}
+
+.geo__header-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.geo__header-image img {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+    .geo__header {
+        flex-direction: column;
+    }
+
+    .geo__header-content {
+        margin: 0 0 3rem;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .geo__header {
+        flex-direction: row;
+    }
+
+    .geo__header h1 {
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    .geo__header p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .geo__header-image img {
+        width: 100%;
+        height: 50%;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    .geo__header h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .geo__header p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+}
+
+@media screen and (max-width: 490px) {
+    .geo__header h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .geo__header p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    
+    .geo__header-image{
+        display: none;
+    }
+}

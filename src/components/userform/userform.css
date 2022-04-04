@@ -1,0 +1,161 @@
+.firstName,
+.lastName,
+.phone,
+.modelphone,
+.enregistrer
+ {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.enregistrer {
+  width: 100%;
+}
+
+.form-wrapper {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 50px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 50px #555;
+  background-color: #ffffff;
+  margin: 1rem 15rem;
+  font-family: var(--font-family);
+}
+
+.wrapper-operator {
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding-left: 10%;
+    /* background-color: #258ea6; */
+  }
+  
+  .form-wrapper-operator {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 50px #555;
+    background-color: #ffffff;
+    margin-top: 0%;
+    margin-bottom: 50px;
+  }
+  
+  form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .firstName {
+    margin-right: 1%;
+  }
+  
+  .lastName {
+    margin-left: 1%;
+  }
+
+  .headers {
+    display: flex;
+    flex-direction: row;
+    font-weight: lighter;
+    background-color: #fff;
+    justify-content: center;
+    padding-bottom: 1rem;
+  }
+
+  .createAccount {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+  }
+  
+  .createAccount button {
+    background-color: #2e566d;
+    color: #fff;
+    border: 2px solid #fff;
+    /* width: 100%; */
+    margin-top: 1em;
+    padding: 8px 0px;
+    font-size: 1em;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    margin-bottom: 0.25em;
+    font-family: var(--font-family);
+  }
+  
+  .createAccount button:hover {
+    color: #2151ec;
+    background-color: #fff;
+    border: 2px solid #bbcddd;
+  }
+  
+  .createAccount small {
+    color: #999;
+    font-weight: lighter;
+  }
+
+  @media screen and (max-width: 400px ) {
+    .form-wrapper {
+      width: 300px !important;
+      margin-top: 50px !important;
+      margin-bottom: 50px;
+      margin: 2rem 2.5rem !important;
+  }
+}
+  @media screen and (max-width: 550px ) {
+    .form-wrapper {
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      /* padding: 30px 10px; */
+      border-radius: 10px;
+      box-shadow: 0px 10px 50px #555;
+      background-color: #ffffff;
+      margin-top: 30px;
+      margin-bottom: 50px;
+      margin: 1rem 1rem;
+  }
+    .firstName,
+    .lastName,
+    .phone,
+    .modelphone,
+    .enregistrer {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 912px ) {
+    .form-wrapper {
+      width: 350px;
+      display: flex;
+      flex-direction: column;
+      padding: 40px 40px;
+      border-radius: 10px;
+      box-shadow: 0px 10px 50px #555;
+      background-color: #ffffff;
+      margin-top: 192px;
+      margin-left: 245px;
+      margin-bottom: 50px;
+      margin: 2rem 2rem;
+
+  }
+  .h1 {
+    font-size: 1rem !important;
+  }
+    .firstName,
+    .lastName,
+    .phone,
+    .modelphone,
+    .enregistrer {
+      width: 100%;
+    }
+}

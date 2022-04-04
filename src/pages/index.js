@@ -1,0 +1,7 @@
+export { default as AddOperator } from './addoperator/AddOperator'
+export { default as Home } from './home/Home'
+export { default as ViewUser } from './home/ViewUser'
+export { default as Operator } from './operator/Operator'
+export { default as ViewOperator } from './operator/ViewOperator'
+export { default as About } from './about/About'
+export { default as Search } from './search/Search'

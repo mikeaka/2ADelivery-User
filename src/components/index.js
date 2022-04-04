@@ -1,0 +1,6 @@
+export { default as NavBar } from './navbar/NavBar'
+export { default as UserDetails } from './userdetails/UserDetails'
+export { default as UserForm } from './userform/UserForm'
+export { default as UserLocation } from './userlocation/UserLocation'
+export { default as UserLocationDetails } from './userlocationdetails/UserLocationDetails'
+export { default as Footer } from './footer/Footer'

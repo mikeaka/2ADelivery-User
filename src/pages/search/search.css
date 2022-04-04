@@ -1,0 +1,21 @@
+.geo__search-h2 {
+    color: aliceblue;
+    padding: 1rem 1rem;
+}
+
+.btn1 {
+    border: none;
+    color: white;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .btn-edit1{
+    background-color: rgb(159, 168, 196);
+  }

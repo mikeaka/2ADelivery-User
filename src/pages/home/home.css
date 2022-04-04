@@ -1,0 +1,116 @@
+.styled-table{
+    border-collapse:collapse;
+    border-radius: 10px;
+    margin: auto;
+    font-size: 0.9em;
+    font-family: var(--font-family);
+    max-width: 800px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    align-content: center;
+    background-color: aliceblue;
+    
+  }
+  
+  .styled-table thead tr {
+    background-color: rgb(74, 68, 85);
+    color: deepskyblue;
+    text-align: left;
+  }
+  
+  .styled-table th,
+  .styled-table td{
+    padding: 12px 15px;
+    font-family: var(--font-family);
+  }
+  
+  .styled-table tbody tr {
+    border-bottom: 1px solid #dddd;
+  }
+  
+  .styled-table tbody tr:nth-of-type(even)
+  {
+    background-color: dimgrey;
+  }
+  
+  .styled-table tbody tr:last-of-type{
+    border-bottom: 2px solid #009879;
+  }
+
+  .geo__home-p {
+    display: flex;
+    flex: 1 1;
+    font-family: var(--font-family);
+    font-size: 1.1em;
+    align-content: center;
+    color: rgb(215 77 11);
+    /* margin: 0rem 0rem 1rem 1rem; */
+    text-align: center;
+    text-transform: capitalize;
+    -webkit-text-stroke: thin;
+    /* align-items: center; */
+    /* align-items: center; */
+    /* align-content: center; */
+    padding: 1rem;
+  }
+  
+  form {
+    width: 100% !important;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 1 1 0;
+
+  }
+
+
+  .btn {
+    border: none;
+    color: white;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .btn-edit{
+    background-color: rgb(159, 168, 196);
+  }
+  
+  .btn-delete{
+    background-color: red;
+  }
+  
+  .btn-view{
+    background-color: green;
+  }
+
+  .btn-reset {
+    background-color: #808c4a;
+    color: black;
+    height: 38px;
+    margin-top: 21px !important;
+    margin-left: 18px !important;
+  }
+
+  /* .geo__home-form {
+    font-family: var(--font-family);
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 96px;
+  }
+ */
+
+ @media screen and (max-width: 770px ) {
+  .geo__home-form {
+    width: 50% !important;
+    margin: 1rem 2rem;
+  }
+  .geo__home-p {
+    margin-right: 16rem;
+    margin-left: 2rem;
+    margin: auto;
+  }
+}

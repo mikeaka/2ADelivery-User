@@ -1,0 +1,27 @@
+.card{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    /* border: red solid; */
+    border-radius: 10px;
+    align-content: center;
+    margin: 0 auto;
+    font-family: var(--font-family);
+}
+
+.card-header {
+    height: 30%;
+    background: rgb(29, 55, 90);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1rem 1rem;
+}
+
+.card-header p {
+    font-size:20px;
+}
+
+.container {
+    padding: 4px 16px;
+    background:rgb(255, 255, 255);
+}

@@ -1,0 +1,78 @@
+.userfirstname {
+    margin-right: 1%;
+    width:200px;
+    display: inline-block;
+  }
+  
+  .userlastname {
+    margin-left: 1%;
+  }
+  
+  .label1 {
+      font-size: 0.5em !important;
+      margin-bottom: 0.25em !important; 
+      color: #222 !important;
+      font-weight: lighter !important;
+      position:relative !important;
+      text-align: left !important;
+  }
+
+  .userfirstname,
+  .userlastname,
+  .userphone,
+  .idcard {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .userfirstname,
+  .userlastname {
+    width: 49%;
+  }
+  
+  .userphone,
+  .idcard {
+    width: 100%;
+  }
+  
+  .text-danger {
+    font-size: 0.6em;
+    font-family: var(--font-family);
+    color: red;
+    
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input {
+      padding: 2px 2px;
+      border-radius: 5px;
+      outline: none;
+      border: 1px solid #cfcfcf;
+      width: 100%;
+      height: 40px;
+    }
+  input::placeholder {
+      font-size: 0.7rem !important;
+      font-weight: lighter;
+      color: #999;
+    }
+  
+    input[type="file"] {
+      font-family: var(--font-family);
+      font-size: 0.7rem;
+    }
+
+  select {
+    font-size: 14px !important;
+      margin-bottom: 0.25em !important;
+      color: #222 !important;
+      font-weight: lighter !important;
+      position: relative !important;
+      text-align: left !important;
+      margin-top: 20px !important;
+      width: 100%;
+      height: 40px;
+      border-radius: 5px;
+  }

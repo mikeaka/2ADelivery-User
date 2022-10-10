@@ -16,8 +16,8 @@ const App = () => {
                     <ToastContainer postition="top-center"></ToastContainer>
                 </div>
                 <Routes>
-                    <Route path="/adduser" element={<UserForm />}></Route>
-                    <Route path="/aboutus" element={<About />}></Route>
+                    <Route path="/AddUser" element={<UserForm />}></Route>
+                    <Route path="/About" element={<About />}></Route>
                 </Routes>
                 {/* <div>
                     <Footer />

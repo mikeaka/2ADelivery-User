@@ -271,7 +271,7 @@ const UserForm = () => {
                             }
                         });
                         setFormData(initialState);
-                        navigate('/', { replace: true })
+                        navigate('/aboutus', { replace: true })
 
                     } else {
                         if (changed) {
@@ -284,7 +284,7 @@ const UserForm = () => {
                                 }
                             });
                             setFormData(initialState);
-                            navigate('/', { replace: true })
+                            navigate('/aboutus', { replace: true })
                             setChanged(false)
                         } else {
                             toast.error("Aucune modification n'a été faite, merci de faire une modification ou d'annuler!")

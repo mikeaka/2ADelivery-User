@@ -5,10 +5,7 @@ import './navbar.css'
 
 const Menu = () => (
     <>
-        <p><a href="/">Acceuil</a></p>
-        <p><a href="/operator">Opérateurs</a></p>
         <p><a href="/adduser">Ajout Utilisateur</a></p>
-        <p><a href="/addoperator">Ajout Opérateur</a></p>
         <p><a href="/aboutus">L'entreprise</a></p>
     </>
 )

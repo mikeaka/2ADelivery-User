@@ -16,9 +16,6 @@ const App = () => {
                     <ToastContainer postition="top-center"></ToastContainer>
                 </div>
                 <Routes>
-                    <Route exact path="/" element={<Home />}></Route>
-                    <Route path="/adduser" element={<UserForm />}></Route>
-                    <Route path="/addOperator" element={<AddOperator />}></Route>
                     <Route path="/operator" element={<Operator />}></Route>
                     <Route path="/updateuser/:id" element={<UserForm />}></Route>
                     <Route path="/viewuser/:id" element={<ViewUser />}></Route>

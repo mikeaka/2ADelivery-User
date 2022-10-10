@@ -7,7 +7,7 @@ const About = () => {
         <div className="geo__header section__padding">
             <div className="geo__header-content">
                 <h1>
-                    Construisons le futur de la côte d'ivoire ensemble avec 2A Delivery.
+                    Construisons le futur de la côte d'ivoire ensemble avec Fast 2A Delivery.
                 </h1>
 
                 <p>Créer en 2020, la société 2A est fondée par deux associés passionné par la côte d'ivoire et son futur. <br /> <br />

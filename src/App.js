@@ -20,9 +20,9 @@ const App = () => {
                     <Route path="/AddUser" element={<UserForm />}></Route>
                     <Route path="/AboutUs" element={<About />}></Route>
                 </Routes>
-                {<div>
+                {/* <div>
                     <Footer />
-                </div>}
+                </div> */}
             </div>
         </BrowserRouter>
     )
